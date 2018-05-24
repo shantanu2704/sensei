@@ -103,35 +103,35 @@ a.sensei-certificate-link {
   text-decoration: none; }
 
 /* Courses */
-#main .course, #main .course-container {
+.course, .course-container {
   position: relative;
   margin: 0 0 1.618em;
   padding: 0 0 1em;
   border-bottom: 1px solid #e2e2e2;
   list-style: none; }
-  #main .course:after, #main .course-container:after {
+  .course:after, .course-container:after {
     content: "\0020";
     display: block;
     height: 0;
     overflow: hidden;
     clear: both; }
-  #main .course header h2, #main .course-container header h2 {
+  .course header h2, .course-container header h2 {
     margin: 0; }
-  #main .course .course-meta, #main .course-container .course-meta {
+  .course .course-meta, .course-container .course-meta {
     margin-bottom: 20px;
     clear: both; }
-    #main .course .course-meta .single_add_to_cart_button, #main .course-container .course-meta .single_add_to_cart_button {
+    .course .course-meta .single_add_to_cart_button, .course-container .course-meta .single_add_to_cart_button {
       font-size: 1em;
       position: relative;
       top: .2em;
       margin-bottom: 0.618em; }
-  #main .course .sensei-course-meta, #main .course-container .sensei-course-meta {
+  .course .sensei-course-meta, .course-container .sensei-course-meta {
     font-style: italic;
     font-size: .9em;
     color: #888888; }
-    #main .course .sensei-course-meta a, #main .course-container .sensei-course-meta a {
+    .course .sensei-course-meta a, .course-container .sensei-course-meta a {
       color: #555; }
-    #main .course .sensei-course-meta .course-price, #main .course-container .sensei-course-meta .course-price {
+    .course .sensei-course-meta .course-price, .course-container .sensei-course-meta .course-price {
       font-style: normal;
       font-weight: bold;
       color: #222222;
@@ -140,33 +140,33 @@ a.sensei-certificate-link {
       -moz-background-clip: padding;
       -webkit-background-clip: padding-box;
       background-clip: padding-box; }
-  #main .course .entry-actions span, #main .course-container .entry-actions span {
+  .course .entry-actions span, .course-container .entry-actions span {
     margin: 0 1em 0 0; }
-  #main .course .course-lessons > header, #main .course .module-lessons > header, #main .course-container .course-lessons > header, #main .course-container .module-lessons > header {
+  .course .course-lessons > header, .course .module-lessons > header, .course-container .course-lessons > header, .course-container .module-lessons > header {
     margin: 2.244em 0 1.618em;
     padding: 2.244em 0 0;
     border-top: 2px solid #e6e6e6; }
-    #main .course .course-lessons > header .course-completion-rate, #main .course .module-lessons > header .course-completion-rate, #main .course-container .course-lessons > header .course-completion-rate, #main .course-container .module-lessons > header .course-completion-rate {
+    .course .course-lessons > header .course-completion-rate, .course .module-lessons > header .course-completion-rate, .course-container .course-lessons > header .course-completion-rate, .course-container .module-lessons > header .course-completion-rate {
       font-style: italic; }
-    #main .course .course-lessons > header .meter, #main .course .module-lessons > header .meter, #main .course-container .course-lessons > header .meter, #main .course-container .module-lessons > header .meter {
+    .course .course-lessons > header .meter, .course .module-lessons > header .meter, .course-container .course-lessons > header .meter, .course-container .module-lessons > header .meter {
       margin: 1em 0 3em; }
-  #main .course .course-lessons .lesson header h2, #main .course .module-lessons .lesson header h2, #main .course-container .course-lessons .lesson header h2, #main .course-container .module-lessons .lesson header h2 {
+  .course .course-lessons .lesson header h2, .course .module-lessons .lesson header h2, .course-container .course-lessons .lesson header h2, .course-container .module-lessons .lesson header h2 {
     margin: 0; }
-  #main .course .course-lessons .lesson p.lesson-meta, #main .course .module-lessons .lesson p.lesson-meta, #main .course-container .course-lessons .lesson p.lesson-meta, #main .course-container .module-lessons .lesson p.lesson-meta {
+  .course .course-lessons .lesson p.lesson-meta, .course .module-lessons .lesson p.lesson-meta, .course-container .course-lessons .lesson p.lesson-meta, .course-container .module-lessons .lesson p.lesson-meta {
     font-style: italic;
     font-size: .9em;
     color: #888888; }
-    #main .course .course-lessons .lesson p.lesson-meta a, #main .course .module-lessons .lesson p.lesson-meta a, #main .course-container .course-lessons .lesson p.lesson-meta a, #main .course-container .module-lessons .lesson p.lesson-meta a {
+    .course .course-lessons .lesson p.lesson-meta a, .course .module-lessons .lesson p.lesson-meta a, .course-container .course-lessons .lesson p.lesson-meta a, .course-container .module-lessons .lesson p.lesson-meta a {
       color: #555; }
-    #main .course .course-lessons .lesson p.lesson-meta span, #main .course .module-lessons .lesson p.lesson-meta span, #main .course-container .course-lessons .lesson p.lesson-meta span, #main .course-container .module-lessons .lesson p.lesson-meta span {
+    .course .course-lessons .lesson p.lesson-meta span, .course .module-lessons .lesson p.lesson-meta span, .course-container .course-lessons .lesson p.lesson-meta span, .course-container .module-lessons .lesson p.lesson-meta span {
       padding-left: 15px; }
-      #main .course .course-lessons .lesson p.lesson-meta span:first-child, #main .course .module-lessons .lesson p.lesson-meta span:first-child, #main .course-container .course-lessons .lesson p.lesson-meta span:first-child, #main .course-container .module-lessons .lesson p.lesson-meta span:first-child {
+      .course .course-lessons .lesson p.lesson-meta span:first-child, .course .module-lessons .lesson p.lesson-meta span:first-child, .course-container .course-lessons .lesson p.lesson-meta span:first-child, .course-container .module-lessons .lesson p.lesson-meta span:first-child {
         padding-left: 0px; }
-    #main .course .course-lessons .lesson p.lesson-meta .lesson-status, #main .course .module-lessons .lesson p.lesson-meta .lesson-status, #main .course-container .course-lessons .lesson p.lesson-meta .lesson-status, #main .course-container .module-lessons .lesson p.lesson-meta .lesson-status {
+    .course .course-lessons .lesson p.lesson-meta .lesson-status, .course .module-lessons .lesson p.lesson-meta .lesson-status, .course-container .course-lessons .lesson p.lesson-meta .lesson-status, .course-container .module-lessons .lesson p.lesson-meta .lesson-status {
       font-style: normal; }
-      #main .course .course-lessons .lesson p.lesson-meta .lesson-status.complete, #main .course .module-lessons .lesson p.lesson-meta .lesson-status.complete, #main .course-container .course-lessons .lesson p.lesson-meta .lesson-status.complete, #main .course-container .module-lessons .lesson p.lesson-meta .lesson-status.complete {
+      .course .course-lessons .lesson p.lesson-meta .lesson-status.complete, .course .module-lessons .lesson p.lesson-meta .lesson-status.complete, .course-container .course-lessons .lesson p.lesson-meta .lesson-status.complete, .course-container .module-lessons .lesson p.lesson-meta .lesson-status.complete {
         color: #63a95f; }
-        #main .course .course-lessons .lesson p.lesson-meta .lesson-status.complete:before, #main .course .module-lessons .lesson p.lesson-meta .lesson-status.complete:before, #main .course-container .course-lessons .lesson p.lesson-meta .lesson-status.complete:before, #main .course-container .module-lessons .lesson p.lesson-meta .lesson-status.complete:before {
+        .course .course-lessons .lesson p.lesson-meta .lesson-status.complete:before, .course .module-lessons .lesson p.lesson-meta .lesson-status.complete:before, .course-container .course-lessons .lesson p.lesson-meta .lesson-status.complete:before, .course-container .module-lessons .lesson p.lesson-meta .lesson-status.complete:before {
           font-family: 'FontAwesomeSensei';
           display: inline-block;
           font-size: 100%;
@@ -175,9 +175,9 @@ a.sensei-certificate-link {
           line-height: 1em;
           width: 1em;
           content: '\f00c'; }
-      #main .course .course-lessons .lesson p.lesson-meta .lesson-status.in-progress, #main .course .module-lessons .lesson p.lesson-meta .lesson-status.in-progress, #main .course-container .course-lessons .lesson p.lesson-meta .lesson-status.in-progress, #main .course-container .module-lessons .lesson p.lesson-meta .lesson-status.in-progress {
+      .course .course-lessons .lesson p.lesson-meta .lesson-status.in-progress, .course .module-lessons .lesson p.lesson-meta .lesson-status.in-progress, .course-container .course-lessons .lesson p.lesson-meta .lesson-status.in-progress, .course-container .module-lessons .lesson p.lesson-meta .lesson-status.in-progress {
         color: #555; }
-        #main .course .course-lessons .lesson p.lesson-meta .lesson-status.in-progress:before, #main .course .module-lessons .lesson p.lesson-meta .lesson-status.in-progress:before, #main .course-container .course-lessons .lesson p.lesson-meta .lesson-status.in-progress:before, #main .course-container .module-lessons .lesson p.lesson-meta .lesson-status.in-progress:before {
+        .course .course-lessons .lesson p.lesson-meta .lesson-status.in-progress:before, .course .module-lessons .lesson p.lesson-meta .lesson-status.in-progress:before, .course-container .course-lessons .lesson p.lesson-meta .lesson-status.in-progress:before, .course-container .module-lessons .lesson p.lesson-meta .lesson-status.in-progress:before {
           font-family: 'FontAwesomeSensei';
           display: inline-block;
           font-size: 100%;
@@ -187,19 +187,19 @@ a.sensei-certificate-link {
           width: 1em;
           content: '\f0ca'; }
 
-.single-course .course-meta {
+.course .course-meta {
   margin-bottom: 1.618em; }
-  .single-course .course-meta:after {
+  .course .course-meta:after {
     content: "\0020";
     display: block;
     height: 0;
     overflow: hidden;
     clear: both; }
-  .single-course .course-meta .status {
+  .course .course-meta .status {
     float: left;
     margin-right: .236em; }
 
-.single-course .course-video {
+.course .course-video {
   margin-bottom: 1.618em; }
 
 #main .course-container .module-lessons > header {
